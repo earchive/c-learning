@@ -7,4 +7,20 @@ int main() {
 			sum += i;
 	}
 	printf("%d\n", sum);
+
+	short a = 0;
+	while (a < 10) {
+		a++;
+		printf("%d", a);
+	}
+	printf("\n");
+
+	switch (a) {
+		case 10:
+			printf("loop verified\n");
+			break;
+		case 9:
+			printf("failed\n");
+			break;
+	}	
 }
