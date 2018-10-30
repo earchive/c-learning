@@ -23,4 +23,5 @@ int main() {
 			printf("failed\n");
 			break;
 	}	
+	return 0;
 }

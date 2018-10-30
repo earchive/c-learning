@@ -17,6 +17,7 @@ int main() {
 	swap3(&x, &y);
 	printf("%d\n", x);
 	printf("%d\n", y);*/
+	return 0;
 }
 
 void swap1(int a, int b) {

@@ -13,6 +13,7 @@ int main() {
 	int y = 5;
 	change(&x, &y);
 	printf("%d %d\n", x, y);
+	return 0;
 }
 
 int max(int a, int b) {
