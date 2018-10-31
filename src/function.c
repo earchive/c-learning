@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int max(int x, int y);
-void count(void);
-void change(int *x, int *y);
+int max(int a, int b);
+void count();
+void change(int *a, int *b);
 
-int main() {
+int fun() {
 	printf("%d\n",max(2,3));
 	for (int i = 0; i < 10; i++) {
 		count();
@@ -20,7 +20,7 @@ int max(int a, int b) {
 	return a > b ? a : b;
 }
 
-void count(void) {
+void count() {
 	//this is used to understand reserved key "static"
 	static int c = 10;
 	c++;

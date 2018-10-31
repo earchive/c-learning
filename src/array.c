@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int arr() {
 	int a[10];
 	a[0] = 1;
 	a[1] = 1;

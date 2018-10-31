@@ -3,7 +3,7 @@
 void swap1(int a, int b);
 void swap2(int *a, int *b);
 
-int main() {
+int swap() {
 	int x = 5;
 	int y = 9;
 	swap1(x, y);
