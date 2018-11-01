@@ -5,10 +5,11 @@
 #include "Main.h"
 
 int main() {
-    helloWorld();
-    swap();
-    fun();
-    control();
-    arr();
+    //helloWorld();
+    //swap();
+    //fun();
+    //control();
+    //arr()
+    pointer();
     return 0;
 }

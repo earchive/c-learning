@@ -14,3 +14,4 @@ int swap();
 int fun();
 int control();
 int arr();
+int pointer();
