@@ -10,6 +10,7 @@ int main() {
     //fun();
     //control();
     //arr()
-    pointer();
+    //pointer();
+    funPointer();
     return 0;
 }
