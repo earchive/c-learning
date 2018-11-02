@@ -16,3 +16,4 @@ int control();
 int arr();
 int pointer();
 int funPointer();
+int callback();

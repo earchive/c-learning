@@ -11,6 +11,7 @@ int main() {
     //control();
     //arr()
     //pointer();
-    funPointer();
+    //funPointer();
+    callback();
     return 0;
 }
