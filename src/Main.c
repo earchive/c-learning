@@ -12,6 +12,7 @@ int main() {
     //arr()
     //pointer();
     //funPointer();
-    callback();
+    //callback();
+    temperature();
     return 0;
 }
