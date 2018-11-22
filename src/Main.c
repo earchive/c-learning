@@ -13,6 +13,7 @@ int main() {
     //pointer();
     //funPointer();
     //callback();
-    temperature();
+    //temperature();
+    eof();
     return 0;
 }
