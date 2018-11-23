@@ -15,6 +15,7 @@ int main() {
     //callback();
     //temperature();
     //eof();
-    countChar();
+    //countChar();
+    countWord();
     return 0;
 }
