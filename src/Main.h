@@ -19,3 +19,4 @@ int funPointer();
 int callback();
 int temperature();
 int eof();
+int countChar();

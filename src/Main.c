@@ -14,6 +14,7 @@ int main() {
     //funPointer();
     //callback();
     //temperature();
-    eof();
+    //eof();
+    countChar();
     return 0;
 }
