@@ -32,3 +32,5 @@ int eof();
 int countChar();
 
 int countWord();
+
+int charArr();
