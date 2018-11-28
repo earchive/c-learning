@@ -17,6 +17,7 @@ int main() {
     //eof();
     //countChar();
     //countWord();
-    charArr();
+    //charArr();
+    enu();
     return 0;
 }

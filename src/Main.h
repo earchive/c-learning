@@ -34,3 +34,5 @@ int countChar();
 int countWord();
 
 int charArr();
+
+int enu();

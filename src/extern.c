@@ -10,9 +10,9 @@ int max;
 char line[MAXLINE];
 char longest[MAXLINE];
 
-int getLine(void);
+int GetLine(void);
 
-void copy(void);
+void Copy(void);
 
 int exter() {
     int len;
@@ -20,17 +20,17 @@ int exter() {
     extern char longest[];
 
     max = 0;
-    while ((len = getLine()) > 0)
+    while ((len = GetLine()) > 0)
         if (len > max) {
             max = len;
-            copy();
+            Copy();
         }
     if (max > 0)
         printf("%s", longest);
     return 0;
 }
 
-int getLine(void) {
+int GetLine(void) {
     int c, i;
     extern char line[];
 
@@ -45,7 +45,7 @@ int getLine(void) {
     return i;
 }
 
-void copy(void) {
+void Copy(void) {
     int i;
     extern char line[], longest[];
     i = 0;
