@@ -36,3 +36,5 @@ int countWord();
 int charArr();
 
 int enu();
+
+int atoi();

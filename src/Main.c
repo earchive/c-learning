@@ -18,6 +18,8 @@ int main() {
     //countChar();
     //countWord();
     //charArr();
-    enu();
+    //enu();
+    //char s[] = "        -1234sad567";
+    //printf("%d\n", atoi(s));
     return 0;
 }

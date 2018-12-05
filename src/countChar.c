@@ -19,7 +19,7 @@ int countChar() {
     return 0;
 }
 
-int count() {
+int count1() {
     int c, i, nwhite, nother, ndigit[10];
     nwhite = nother = 0;
     for (i = 0; i < 10; ++i) {
